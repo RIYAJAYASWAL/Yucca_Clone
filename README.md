@@ -64,3 +64,5 @@ project-folder/
 # 📬 Feedback
 If you like this project, give it a ⭐!
 For feedback or suggestions, feel free to open an issue.
+
+[x]Yes
