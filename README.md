@@ -13,6 +13,10 @@ Click here to here to view the live demo ---> https://riyajayaswal.github.io/Yuc
 <img width="1919" height="913" alt="Screenshot 2026-05-13 095449" src="https://github.com/user-attachments/assets/a4051de0-0aa9-4609-b550-9eef1b80e836" />
 
 
+
+https://github.com/user-attachments/assets/1aa87e7b-9648-4a0c-bd06-65d91a3b32a8
+
+
 ---
 
 ## ✨ Features
