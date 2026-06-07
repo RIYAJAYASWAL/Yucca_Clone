@@ -272,6 +272,7 @@ button{
   justify-content: center;
   gap: 40px;
   flex-direction: column;
+  font-family: magnetlight !important;
 }
 .loop{
   height: 8vh;
@@ -332,12 +333,11 @@ button{
   justify-content: center;
   flex-direction: column;
   gap: 10px;
-  
+  font-family: magnetlight !important;
 }
 .line{
   font-size:23px;
   font-weight: 600;
-  
 }
 .services{
   height: 120vh;
