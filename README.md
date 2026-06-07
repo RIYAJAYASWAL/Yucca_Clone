@@ -3,7 +3,7 @@ A modern and responsive frontend clone inspired by the Yucca Packaging website, 
 
 ## 🚀 Live Preview
 Click here to here to view the live demo ---> https://riyajayaswal.github.io/Yucca_Clone/
-
+Original website --> https://yucca.co.za/
 ## 📸 Screenshots
 <img width="1918" height="910" alt="Screenshot 2026-05-13 095301" src="https://github.com/user-attachments/assets/919f24de-9148-45d8-8b5f-5f12d101e686" />
 <img width="1919" height="913" alt="Screenshot 2026-05-13 095317" src="https://github.com/user-attachments/assets/661149b7-733c-43db-bd70-cb34f76dbcd9" />
