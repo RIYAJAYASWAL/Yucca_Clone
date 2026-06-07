@@ -8,8 +8,8 @@ html, body {
   width: 100%;
   height: 100%;
   scrollbar-width: none;
-  font-family: magnetlight !important;
 }
+
 @font-face {
   font-family: magnetlight;
   src: url("MagnetTrial-ExtraLight-BF65f3b2c458ace.otf");
@@ -19,12 +19,14 @@ main{
   width: 100%;
   position: relative;
   overflow: hidden;
+  
 }
 nav{
   height: 12vh;
   width: 100%;
   display: flex;
   padding: 0px 76px;
+  font-family: magnetlight !important;
   justify-content: space-evenly;
   position: fixed;
   border-bottom: 0.3px solid #bfc0ac;
@@ -46,12 +48,12 @@ nav:hover{
   display: flex;
   align-items: center;
   gap: 30px;
-
 }
 .nav-links p{
   font-size: 13px;
   font-weight: 600;
   color: black;
+  font-family: magnetlight !important;
 }
 .icons{
   display: flex;
@@ -60,6 +62,7 @@ nav:hover{
   justify-content: end;
   height: 100%;
   width: 30%;
+  font-family: magnetlight !important;
 }
 .credit-container{
   display: flex;
@@ -92,6 +95,7 @@ nav:hover{
 #bt p{
   font-weight: 550;
   font-size: 12px;
+   font-family: magnetlight !important;
 }
 
 button{
@@ -105,6 +109,7 @@ button{
   border-radius: 5px;
   font-size: 12.5px;
   margin-top: 20px;
+   font-family: magnetlight !important;
 
 }
 
@@ -113,6 +118,7 @@ button{
   width: 100%;
   background-color: #6c6c64;
   position: relative;
+   font-family: magnetlight !important;
 }
 .hero img{
   height: 100%;
@@ -131,6 +137,7 @@ button{
   padding: 0px 161px;
   padding-top: 140px;
   padding-bottom: 40px;
+   font-family: magnetlight !important;
 }
 .overlay h1{
   font-size: 68px;
@@ -140,6 +147,7 @@ button{
 .card-container{
   display: flex;
   gap: 20px;
+   font-family: magnetlight !important;
 }
 .card{
   height: 285px;
@@ -157,9 +165,11 @@ button{
   font-size: 26px;
   font-weight: 600;
   transition: all ease 0.3s;
+  font-family: magnetlight !important;
 }
 .card:hover{
   background-color: #FFFDF5;
+  font-family: magnetlight !important;
 }
 .text-container{
   height: 4vh;
@@ -168,6 +178,7 @@ button{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+   font-family: magnetlight !important;
 }
 
 .card:hover .text-container p{
@@ -182,7 +193,7 @@ button{
   flex-direction: column;
   gap: 5px;
   top: 10%;
-
+  font-family: magnetlight !important;
 }
 .para-text-container{
   gap: 20px;
@@ -198,6 +209,7 @@ button{
   left: 10px;
   bottom: -100%;
   transition: all ease 0.5s;
+  font-family: magnetlight !important;
 }
 
 .card:hover .para-text-container p{
@@ -224,6 +236,7 @@ button{
   padding: 0px 10px;
   opacity: 0;
   transition: all ease 0.5s;
+   font-family: magnetlight !important;
 }
 .button-container p{
   font-size: 12px;
@@ -334,6 +347,7 @@ button{
   background-size: cover;
   background-position: center;
   transition: background-image 0.5s ease;
+   font-family: magnetlight !important;
 }
 .services .overlay{
   height: 100%;
@@ -343,6 +357,7 @@ button{
   justify-content: center;
   position: relative;
   z-index: 2;
+   font-family: magnetlight !important;
 }
 .overlay .card-container{
   display: flex;
@@ -361,26 +376,31 @@ button{
 .box .text-container p{
   font-size: 26px;
   color:white;
+   font-family: magnetlight !important;
 }
 .box .para-text-container{
   height: 3vh;
 }
 .box .para-text-container p{
   font-size: 10px; 
+  font-family: magnetlight !important;
 }
 .box .para-text{
   height: 30px;
   margin-top: 0;
   padding-bottom: 45px;
+  font-family: magnetlight !important;
 }
 .box h2{
   font-size: 30px;
   margin-left: 10px;
   display: none;
+   font-family: magnetlight !important;
 }
 .box .button-container p{
   font-size: 20px;
   font-weight: 600;
+   font-family: magnetlight !important;
 }
 .box:hover .button-container{
   opacity: 1;
@@ -425,6 +445,7 @@ button{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+   font-family: magnetlight !important;
 }
 .about-top{
   width: 100%;
@@ -435,15 +456,18 @@ button{
   border-bottom: 2px solid #A8A8A7;
   padding-left: 10.5%;
   padding-right: 6%;
+  font-family: magnetlight !important;
 
 }
 .about-top h1{
   font-size: 46px;
+  font-family: magnetlight !important;
 }
 
 .about-content p{
   font-weight: 500;
   font-size: 17px;
+  font-family: magnetlight !important;
 }
 .our-mission{
   width: 100%;
@@ -454,7 +478,7 @@ button{
   padding-right: 7%;
   padding-left: 11%;
   border-bottom: 0.3px solid #bfc0ac;
-
+  font-family: magnetlight !important;
 }
 .dot{
   display:block;
@@ -468,6 +492,7 @@ button{
   align-items: center;
   justify-content: center;
   gap: 15px;
+  font-family: magnetlight !important;
 }
 .two{
   border-bottom: none;
@@ -475,6 +500,7 @@ button{
 .about-yucca-2{
   height: 86vh;
   width: 100%;
+  font-family: magnetlight !important;
   background-color: #FFFDF5 ;
 }
 .new-products{
@@ -485,6 +511,7 @@ button{
   padding-left: 11%;
   position: relative;
   top: 20%;
+  font-family: magnetlight !important;
 }
 .shop-now {
   height: 30px;
@@ -496,6 +523,7 @@ button{
   justify-content: center;
   font-size: 12px;
   position: relative;
+  font-family: magnetlight !important;
 }
 .shop-now-button {
   height: 40px;
@@ -505,6 +533,7 @@ button{
   justify-content: center;
   position: relative;
   overflow: hidden;
+  font-family: magnetlight !important;
 }
 .shop-now-overlay {
   height: 30px;
@@ -520,6 +549,7 @@ button{
   position: absolute;
   bottom: -40px;
   transition: all ease 0.5s;
+  font-family: magnetlight !important;
 }
 .shop-now-button:hover .shop-now-overlay {
   bottom: 10%;
@@ -533,9 +563,10 @@ button{
   justify-content: center;
   margin-left: 10.2%;
   top: 25%;
+  font-family: magnetlight !important;
 }
 .product-container{
-  
+  font-family: magnetlight !important;
   height: 100%;
   width: 100%;
   
@@ -548,6 +579,7 @@ button{
   position: relative;
   margin-bottom: 17px;
   overflow: hidden;
+  font-family: magnetlight !important;
 }
 .product-box img{
   height: 100%;
@@ -579,6 +611,7 @@ span{
   font-size: 12px;
   color: white;
   font-weight: 700;
+  font-family: magnetlight !important;
 
 }
 .quantity {
@@ -593,6 +626,7 @@ span{
   bottom: -10%;
   transition: all ease 0.2s;
   font-weight: 600;
+  font-family: magnetlight !important;
 }
 .type {
   height: 100%;
@@ -602,6 +636,7 @@ span{
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  font-family: magnetlight !important;
   border: 1.5px solid black;
 }
 .type-overlay {
@@ -617,6 +652,7 @@ span{
   position: absolute;
   bottom: -100%;
   transition: all ease 0.5s;
+  font-family: magnetlight !important;
 }
 .o {
   height: 100%;
@@ -661,6 +697,7 @@ span{
   display: flex;
   position: relative;
   overflow: hidden;
+  font-family: magnetlight !important;
 }
 .left p{
   margin-bottom: 20px;
@@ -698,7 +735,7 @@ span{
   border-top: 0.3px solid white;
   border-bottom: 0.3px solid white;
   flex-shrink: 0;
-
+  font-family: magnetlight !important;
 }
 .marquee-1 .marquee-container{
   flex-shrink: 0;
@@ -737,6 +774,7 @@ span{
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-family: magnetlight !important;
 }
 .factory-top{
   width: 100%;
@@ -746,7 +784,7 @@ span{
   justify-content: space-between;
   padding-left: 11%;
   margin-bottom: 40px;
-
+  font-family: magnetlight !important;
 }
 .factory-top h1{
   font-size: 35px;
@@ -762,6 +800,7 @@ span{
   justify-content: center;
   gap: 40px;
   position: relative;
+  font-family: magnetlight !important;
 }
 .factory-container{
   height: 80%;
@@ -771,6 +810,7 @@ span{
   flex-direction: column;
   position: relative;
   gap: 30px;
+  font-family: magnetlight !important;
 }
 .name{
   display: flex;
@@ -778,6 +818,7 @@ span{
   gap: 30px;
   border-bottom: 1px solid #dbd8cc;
   padding-bottom: 10px;
+  font-family: magnetlight !important;
 }
 .name h1{
   font-weight: 600;
@@ -792,6 +833,7 @@ span{
   justify-content: center;
   position: relative;
   padding: 65px;
+  font-family: magnetlight !important;
 }
 .faq-left{
   height: 100%;
@@ -835,11 +877,13 @@ span{
   padding-top: 15px;
   border-top: 1px solid #b3b0a7;
   transition: all ease 0.5s;
+  font-family: magnetlight !important;
 }
 .doggle{
   font-size: 30px;
   font-weight: 600;
   transition: all ease 0.5s;
+  font-family: magnetlight !important;
 }
 .q:hover {
   padding-left: 10px;
@@ -858,6 +902,7 @@ span{
   padding-right: 80px;
   padding-top: 8px;
   padding-bottom: 30px;
+  font-family: magnetlight !important;
   
 }
 .heading{
@@ -873,6 +918,7 @@ span{
 .heading p{
   font-size: 40px;
   font-weight: 600;
+  font-family: magnetlight !important;
 }
 .arrow{
   height: 68px;
@@ -885,6 +931,7 @@ span{
   rotate: 0deg;
   overflow: hidden;
   position: relative;
+  
 }
 .arrow svg{
   position: relative;
@@ -933,6 +980,7 @@ span{
 }
 .footer-box h1{
   font-size: 30px;
+  font-family: magnetlight !important;
 }
 
 .a:hover{
@@ -954,6 +1002,7 @@ span{
 .footer-box h1 {
   font-size: 30px;
   font-weight: 350;
+  font-family: magnetlight !important;
 }
 .footer-box-overlay {
   height: 100%;
@@ -976,6 +1025,7 @@ span{
   position: absolute;
   bottom: -33px;
   transition: all ease 0.5s;
+  font-family: magnetlight !important;
 }
 .box-text {
   height: 32px;
@@ -983,6 +1033,7 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: magnetlight !important;
 }
 .box-text h1 {
   transition: all ease 0.5s;
@@ -1004,6 +1055,7 @@ span{
   left: 10%;
   bottom: 5%;
   display: flex;
+  font-family: magnetlight !important;
 }
 .yucca {
   height: 100%;
@@ -1013,6 +1065,7 @@ span{
   justify-content: flex-start;
   padding-left: 20px;
   gap: 15px;
+  font-family: magnetlight !important;
 }
 
 .contact-links {
@@ -1024,6 +1077,7 @@ span{
   padding-right: 20px;
   gap: 20px;
   font-size: 13px;
+  font-family: magnetlight !important;
 }
 .wp-icon {
   height: 50px;
