@@ -19,7 +19,6 @@ main{
   width: 100%;
   position: relative;
   overflow: hidden;
-  
 }
 nav{
   height: 12vh;
@@ -37,7 +36,6 @@ nav:hover{
 }
 .blank{
   color: black;
-  
 }
 .logo{
   display: flex;
@@ -95,7 +93,7 @@ nav:hover{
 #bt p{
   font-weight: 550;
   font-size: 12px;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 
 button{
@@ -109,8 +107,7 @@ button{
   border-radius: 5px;
   font-size: 12.5px;
   margin-top: 20px;
-   font-family: magnetlight !important;
-
+  font-family: magnetlight !important;
 }
 
 .hero{
@@ -118,7 +115,7 @@ button{
   width: 100%;
   background-color: #6c6c64;
   position: relative;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .hero img{
   height: 100%;
@@ -137,7 +134,7 @@ button{
   padding: 0px 161px;
   padding-top: 140px;
   padding-bottom: 40px;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .overlay h1{
   font-size: 68px;
@@ -147,7 +144,7 @@ button{
 .card-container{
   display: flex;
   gap: 20px;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .card{
   height: 285px;
@@ -178,7 +175,7 @@ button{
   align-items: center;
   justify-content: center;
   overflow: hidden;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 
 .card:hover .text-container p{
@@ -236,12 +233,11 @@ button{
   padding: 0px 10px;
   opacity: 0;
   transition: all ease 0.5s;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .button-container p{
   font-size: 12px;
   font-weight: 300;
-
 }
 .card:hover .button-container{
   opacity: 1;
@@ -254,7 +250,6 @@ button{
   width: 100%;
   overflow: hidden;
   font-family: magnetlight !important;
-  
 }
 .marquee img{
   height: 100%;
@@ -314,7 +309,6 @@ button{
   width: max-content;
   animation: bottom 35s linear infinite;
   flex-wrap: nowrap;
-
 }
 @keyframes bottom{
   0%{
@@ -349,7 +343,7 @@ button{
   background-size: cover;
   background-position: center;
   transition: background-image 0.5s ease;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .services .overlay{
   height: 100%;
@@ -359,7 +353,7 @@ button{
   justify-content: center;
   position: relative;
   z-index: 2;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .overlay .card-container{
   display: flex;
@@ -378,7 +372,7 @@ button{
 .box .text-container p{
   font-size: 26px;
   color:white;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .box .para-text-container{
   height: 3vh;
@@ -397,12 +391,12 @@ button{
   font-size: 30px;
   margin-left: 10px;
   display: none;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .box .button-container p{
   font-size: 20px;
   font-weight: 600;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .box:hover .button-container{
   opacity: 1;
@@ -447,7 +441,7 @@ button{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-   font-family: magnetlight !important;
+  font-family: magnetlight !important;
 }
 .about-top{
   width: 100%;
@@ -459,7 +453,6 @@ button{
   padding-left: 10.5%;
   padding-right: 6%;
   font-family: magnetlight !important;
-
 }
 .about-top h1{
   font-size: 46px;
@@ -614,7 +607,6 @@ span{
   color: white;
   font-weight: 700;
   font-family: magnetlight !important;
-
 }
 .quantity {
   height: 10%;
@@ -661,24 +653,20 @@ span{
   width: 70px;
   position: relative;
   overflow: hidden;
- 
 }
 .o:hover .type-overlay {
   bottom: 3%;
   color: white;
- 
 }
 .t{
   height: 100%;
   width: 70px;
   position: relative;
   overflow: hidden;
- 
 }
 .t:hover .type-overlay {
   bottom: 3%;
   color: white;
- 
 }
 .product-container:hover .quantity {
   bottom: 0;
@@ -703,7 +691,6 @@ span{
 }
 .left p{
   margin-bottom: 20px;
-
 }
 .left h1{
   font-size: 49px;
@@ -722,7 +709,6 @@ span{
   width: 100%;
   object-fit: cover;
   overflow: hidden;
- 
 }
 .marquee-1{
   height: 21vh;
@@ -742,7 +728,6 @@ span{
 .marquee-1 .marquee-container{
   flex-shrink: 0;
   display: flex;
-  
 }
 .marquee-1 .marquee-bottom{
   display: flex;
@@ -752,8 +737,7 @@ span{
   display: flex;
   width: fit-content;
   animation: marqu 8s linear infinite;
-  flex-shrink: 0;
-  
+  flex-shrink: 0; 
 }
 .marquee-1 .marquee-container h1{
   font-size: 40px;
@@ -849,8 +833,6 @@ span{
   width: 70px;
   color: white;
   background-color: #1d1d1b;
-  
-
 }
 .faq-left .shop-now-overlay{
   width: 70px;
@@ -905,7 +887,6 @@ span{
   padding-top: 8px;
   padding-bottom: 30px;
   font-family: magnetlight !important;
-  
 }
 .heading{
   height: 20%;
@@ -933,7 +914,6 @@ span{
   rotate: 0deg;
   overflow: hidden;
   position: relative;
-  
 }
 .arrow svg{
   position: relative;
@@ -956,7 +936,6 @@ span{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .arrow:hover .arrow-overlay {
   top: 0;
@@ -989,7 +968,6 @@ span{
   background-image: url("https://yucca.co.za/wp-content/uploads/2025/09/service.jpg");
   background-size: cover;
   border-radius: 80px;
-  
 }
 .b:hover {
   background-image: url("https://yucca.co.za/wp-content/uploads/2025/09/processing.jpg");
