@@ -272,7 +272,6 @@ button{
   justify-content: center;
   gap: 40px;
   flex-direction: column;
-  font-family: magnetlight !important;
 }
 .loop{
   height: 8vh;
@@ -298,6 +297,7 @@ button{
 .marquee-container h1{
   font-size: 50px;
   padding: 10px;
+  font-family: magnetlight !important;
 }
 @keyframes marquee{
   0%{
@@ -338,6 +338,7 @@ button{
 .line{
   font-size:23px;
   font-weight: 600;
+  font-family: magnetlight !important;
 }
 .services{
   height: 120vh;
