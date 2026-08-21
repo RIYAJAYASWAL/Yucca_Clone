@@ -49,12 +49,9 @@ https://github.com/user-attachments/assets/1aa87e7b-9648-4a0c-bd06-65d91a3b32a8
 ## 📂 Folder Structure
 
 project-folder/
-│
 ├── index.html
 ├── style.css
-├── assets/
-│   ├── images/
-│   └── icons/
+├── script.js
 └── README.md
 
 -----
